@@ -57,7 +57,7 @@ public class Rocket : MonoBehaviour
                 audioSource.Stop();
                 audioSource.PlayOneShot(death);
                 deathParticles.Play();
-                Invoke("LoadFirstScene", 1f);
+                Invoke("ReplayScene", 1f);
                 break;
             case "Finish":
                 state = State.Transcending;
@@ -69,9 +69,11 @@ public class Rocket : MonoBehaviour
         }
     }
 
-    private void LoadFirstScene()
+    private void ReplayScene()
     {
-        SceneManager.LoadScene(0);
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(currentScene);
     }
 
     private void LoadNextScene()
