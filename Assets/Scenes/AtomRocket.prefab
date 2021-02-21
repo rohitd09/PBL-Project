@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 2554794086744311432}
   - component: {fileID: 8015445247906524605}
   - component: {fileID: 7112616538538631899}
+  - component: {fileID: 1154464055444734545}
   m_Layer: 0
   m_Name: fire-nozzle
   m_TagString: Untagged
@@ -158,6 +159,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &1154464055444734545
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3910079963337348167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.015875867
+  m_Center: {x: 0, y: 0.00047614455, z: -0.012759339}
 --- !u!1 &4200417580737330860
 GameObject:
   m_ObjectHideFlags: 0
