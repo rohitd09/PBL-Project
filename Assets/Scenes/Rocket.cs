@@ -16,8 +16,8 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem deathParticles;
 
-    [SerializeField] KeyCode leftTurnKey = KeyCode.D;
-    [SerializeField] KeyCode rightTurnKey = KeyCode.A;
+    [SerializeField] KeyCode leftTurnKey = KeyCode.A;
+    [SerializeField] KeyCode rightTurnKey = KeyCode.D;
     [SerializeField] KeyCode thrustKey = KeyCode.Space;
 
 
@@ -116,11 +116,11 @@ public class Rocket : MonoBehaviour
         float rotationThisFrame = Time.deltaTime * rcsThrust;
         if (Input.GetKey(rightTurnKey))
         {
-            transform.Rotate(Vector3.forward * rotationThisFrame);
+            transform.Rotate(-Vector3.forward * rotationThisFrame);
         }
         else if (Input.GetKey(leftTurnKey))
         {
-            transform.Rotate(-Vector3.forward * rotationThisFrame);
+            transform.Rotate(Vector3.forward * rotationThisFrame);
         }
         rigidbody.freezeRotation = false;
     }
