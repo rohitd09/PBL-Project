@@ -189,6 +189,143 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landing Pads
       objectReference: {fileID: 0}
+    - target: {fileID: 1437583368481402258, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1749231073456631627, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634499812750411, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: '<color=#000080ff>Process Management
+
+        </color>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634499812750411, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634499812750411, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -1.0846977
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634499812750411, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500104977670, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>Memory Management</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500104977670, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500104977670, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -0.8088455
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500104977670, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500214713582, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>File Management</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500214713582, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500214713582, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500977512740, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>Device Management</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500977512740, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500977512740, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -1.0667038
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500977512740, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382925554537307321, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457463297791647948, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025332845633601075, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519484294775850857, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504491189143, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504491189143, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504587950898, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 16.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504748813018, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 16.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700222670796316701, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423784914837556446, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 628ef1a2d1c4ff04eb530c69df54935a, type: 3}
 --- !u!1001 &719217901
@@ -817,6 +954,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854619880155694625, guid: 50ced84dbb55b0f439a8aae0d5eb56c2,
+        type: 3}
+      propertyPath: thrustKey
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854619880155694625, guid: 50ced84dbb55b0f439a8aae0d5eb56c2,
+        type: 3}
+      propertyPath: leftTurnKey
+      value: 97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854619880155694625, guid: 50ced84dbb55b0f439a8aae0d5eb56c2,
+        type: 3}
+      propertyPath: rightTurnKey
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50ced84dbb55b0f439a8aae0d5eb56c2, type: 3}

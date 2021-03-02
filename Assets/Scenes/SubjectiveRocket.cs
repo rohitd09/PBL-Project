@@ -1,12 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[DisallowMultipleComponent]
-public class Rocket : MonoBehaviour
+public class SubjectiveRocket : MonoBehaviour
 {
-
-    public Rocket rocket;
-    public SubjectiveRocket subjectiveRocket;
 
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 10f;
@@ -23,11 +21,10 @@ public class Rocket : MonoBehaviour
     [SerializeField] KeyCode rightTurnKey = KeyCode.D;
     [SerializeField] KeyCode thrustKey = KeyCode.Space;
 
-
     Rigidbody rigidbody;
     AudioSource audioSource;
 
-    enum State { Alive, Dying, Transcending}
+    enum State { Alive, Dying, Transcending, Waiting }
     State state = State.Alive;
 
     // Start is called before the first frame update
@@ -35,15 +32,12 @@ public class Rocket : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
-        rocket = GetComponent<Rocket>();
-        subjectiveRocket = GetComponent<SubjectiveRocket>();
     }
-
 
     // Update is called once per frame
     void Update()
     {
-        if(state == State.Alive)
+        if (state == State.Alive)
         {
             RespondToThrustInput();
             RespondToRotate();
@@ -52,11 +46,12 @@ public class Rocket : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(state != State.Alive){ return;  }
+        if (state != State.Alive) { return; }
         switch (collision.gameObject.tag)
         {
-            case "Friendly": print("Friendly");
-                             break;
+            case "Friendly":
+                print("Friendly");
+                break;
             case "Obstacle":
                 state = State.Dying;
                 audioSource.Stop();
@@ -70,6 +65,17 @@ public class Rocket : MonoBehaviour
                 audioSource.PlayOneShot(death);
                 deathParticles.Play();
                 Invoke("ReplayScene", 1f);
+                break;
+            case "PartialAnswer":
+                state = State.Waiting;
+                audioSource.Stop();
+                audioSource.PlayOneShot(success);
+                successParticles.Play();
+                var obstacleAnswer = GameObject.FindGameObjectsWithTag("ObstacleAnswer");
+                foreach(var obstacles in obstacleAnswer)
+                {
+                    obstacles.tag = "Finish";
+                }
                 break;
             case "Finish":
                 state = State.Transcending;
