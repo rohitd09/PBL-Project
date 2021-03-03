@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\Oscillator.cs" />
     <Compile Include="Assets\Scenes\Rocket.cs" />
+    <Compile Include="Assets\Scenes\SubjectiveRocket.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Asset Store Assets\AtomRocket\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
