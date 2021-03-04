@@ -749,7 +749,7 @@ PrefabInstance:
     - target: {fileID: 844757732589929679, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_text
-      value: '<color=#680>It will not store any file attribute.
+      value: '<color=#680>which will not store any file attribute.
 
         </color>'
       objectReference: {fileID: 0}
@@ -763,7 +763,7 @@ PrefabInstance:
       propertyPath: m_text
       value: '<color=#680>
 
-        It may store some or the entire file attributes.
+        which may store some or the entire file attributes.
 
         </color>'
       objectReference: {fileID: 0}

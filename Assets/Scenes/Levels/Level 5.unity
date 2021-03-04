@@ -779,6 +779,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 291367560}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &986791475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297098759377683156, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558078401593212746, guid: 77139b6facfbd9a42867bc5cadeb9096,
+        type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77139b6facfbd9a42867bc5cadeb9096, type: 3}
 --- !u!4 &1013426653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1685532660362997111, guid: 9a73248f7387aa2458121434360aecb1,
@@ -1348,8 +1417,8 @@ PrefabInstance:
     - target: {fileID: 5756775518529477737, guid: 2163a7f196f94994ca32faa0d5f44d87,
         type: 3}
       propertyPath: m_text
-      value: In which access method there are no restrictions, on which block ar
-        e read/written and can done in any order?
+      value: Which of these file attributes assigns access rights of reading, writing
+        and executing?
       objectReference: {fileID: 0}
     - target: {fileID: 5756775518529477737, guid: 2163a7f196f94994ca32faa0d5f44d87,
         type: 3}
@@ -1574,6 +1643,38 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Landing Pads
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634499812750411, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: '<color=#000080ff>Identifier
+
+        </color>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500104977670, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>Protection</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500214713582, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>Size</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159634500977512740, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_text
+      value: <color=#000080ff>Type</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504491189143, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 12.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411091504587950898, guid: 628ef1a2d1c4ff04eb530c69df54935a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 16.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 628ef1a2d1c4ff04eb530c69df54935a, type: 3}
