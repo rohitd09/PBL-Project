@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SubjectiveRocket : MonoBehaviour
@@ -85,20 +83,20 @@ public class SubjectiveRocket : MonoBehaviour
 
     private static void ChangeTag()
     {
-        ChangeObstacleAnswerTag();
-        ChangePartialAnswerTag();
+        ChangeTagOfObstacleAnswer();
+        ChangeTagOfPartialAnswer();
     }
 
-    private static void ChangePartialAnswerTag()
+    private static void ChangeTagOfPartialAnswer()
     {
         var partialAnswer = GameObject.FindGameObjectsWithTag("PartialAnswer");
-        foreach (var answer in partialAnswer)
+        foreach (var answers in partialAnswer)
         {
-            answer.tag = "Obstacle";
+            answers.tag = "Obstacle";
         }
     }
 
-    private static void ChangeObstacleAnswerTag()
+    private static void ChangeTagOfObstacleAnswer()
     {
         var obstacleAnswer = GameObject.FindGameObjectsWithTag("ObstacleAnswer");
         foreach (var obstacles in obstacleAnswer)
