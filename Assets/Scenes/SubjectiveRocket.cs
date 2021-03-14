@@ -71,11 +71,7 @@ public class SubjectiveRocket : MonoBehaviour
                 audioSource.Stop();
                 audioSource.PlayOneShot(success);
                 successParticles.Play();
-                var obstacleAnswer = GameObject.FindGameObjectsWithTag("ObstacleAnswer");
-                foreach(var obstacles in obstacleAnswer)
-                {
-                    obstacles.tag = "Finish";
-                }
+                ChangeTag();
                 break;
             case "Finish":
                 state = State.Transcending;
@@ -84,6 +80,30 @@ public class SubjectiveRocket : MonoBehaviour
                 successParticles.Play();
                 Invoke("LoadNextScene", 1f);
                 break;
+        }
+    }
+
+    private static void ChangeTag()
+    {
+        ChangeObstacleAnswerTag();
+        ChangePartialAnswerTag();
+    }
+
+    private static void ChangePartialAnswerTag()
+    {
+        var partialAnswer = GameObject.FindGameObjectsWithTag("PartialAnswer");
+        foreach (var answer in partialAnswer)
+        {
+            answer.tag = "Obstacle";
+        }
+    }
+
+    private static void ChangeObstacleAnswerTag()
+    {
+        var obstacleAnswer = GameObject.FindGameObjectsWithTag("ObstacleAnswer");
+        foreach (var obstacles in obstacleAnswer)
+        {
+            obstacles.tag = "Finish";
         }
     }
 
