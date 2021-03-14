@@ -800,7 +800,7 @@ PrefabInstance:
     - target: {fileID: 993325807774061264, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_TagString
-      value: PartialAnswer
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 1010841411896202882, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
@@ -810,7 +810,7 @@ PrefabInstance:
     - target: {fileID: 1341065872620732317, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3912533173747374345, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
@@ -825,7 +825,7 @@ PrefabInstance:
     - target: {fileID: 4179958309993592564, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_TagString
-      value: ObstacleAnswer
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5492248462206221984, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
@@ -845,7 +845,7 @@ PrefabInstance:
     - target: {fileID: 6025696541337302718, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7071209693651454850, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
