@@ -722,8 +722,7 @@ PrefabInstance:
     - target: {fileID: 844757732335717762, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_text
-      value: '<color=#680>because it includes a partition table which locates every
-        partition in the hard disk
+      value: '<color=#680>which locates every partition in the hard disk
 
         </color>'
       objectReference: {fileID: 0}
@@ -731,6 +730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSize
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 844757732335717762, guid: c0c74ebd52324a04a86d60b329f0dfff,
+        type: 3}
+      propertyPath: m_margin.w
+      value: 1.1812875
       objectReference: {fileID: 0}
     - target: {fileID: 844757732335717762, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
@@ -747,7 +751,7 @@ PrefabInstance:
       propertyPath: m_text
       value: '<color=#680>
 
-        MBR is called as master partition table
+        MBR includes partition table
 
         </color>'
       objectReference: {fileID: 0}
@@ -774,7 +778,7 @@ PrefabInstance:
     - target: {fileID: 844757732589929679, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
       propertyPath: m_text
-      value: '<color=#680>MBR is known as master hash table
+      value: '<color=#680>MBR includes hash table
 
         </color>'
       objectReference: {fileID: 0}
@@ -798,8 +802,8 @@ PrefabInstance:
       propertyPath: m_text
       value: '<color=#680>
 
-        because it includes a hash table which stores
-        key-value pair of each file in the directory
+        which stores key-value pair of each file in the
+        directory
 
         </color>'
       objectReference: {fileID: 0}
@@ -930,8 +934,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8113449103414405726, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113449103414405726, guid: c0c74ebd52324a04a86d60b329f0dfff,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 13.6
+      value: 11.79
       objectReference: {fileID: 0}
     - target: {fileID: 8113449103701123859, guid: c0c74ebd52324a04a86d60b329f0dfff,
         type: 3}
